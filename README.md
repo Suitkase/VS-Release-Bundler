@@ -1,6 +1,6 @@
 # VS-Release-Bundler
 
-A command line utility to simply pull together all the various `Release` directories that get published to file-system by Visual Studio during the build of a multi-project solution.
+A command line utility to simply pull together all the various `Release` directories that get published to the file-system by Visual Studio during the build of a multi-project solution.
 
 The utility was writen in Javascript to be run by Node
 
