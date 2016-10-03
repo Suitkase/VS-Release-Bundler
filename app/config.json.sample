@@ -1,0 +1,53 @@
+{
+    "web": {
+        "assemblyName": "SAMPLE_web",
+        "releaseParentPath": "c:/builds/web/",
+        "releaseSearchFile": "web.bundle",
+        "excludeReleaseSearchFile": "true",
+        "bundleParentDir": "C:/bundles/SAMPLE",
+        "shellCommands": [
+            "npm install",
+            "npm run predeploy"
+        ]
+    },
+    "admin": {
+        "assemblyName": "SAMPLE_admin",
+        "releaseParentPath": "c:/builds/web",
+        "releaseSearchFile": "admin.bundle",
+        "excludeReleaseSearchFile": "true",
+        "bundleParentDir": "c:/bundles/SAMPLE",
+        "shellCommands": []
+    },
+	"relay": {
+        "assemblyName": "SAMPLE_relay",
+        "releaseParentPath": "c:/builds/web",
+        "releaseSearchFile": "relay.bundle",
+        "excludeReleaseSearchFile": "true",
+        "bundleParentDir": "c:/bundles/SAMPLE",
+        "shellCommands": []
+    },
+    "controller": {
+        "assemblyName": "SAMPLE_controller",
+        "releaseParentPath": "c:/workspace/SAMPLE_PROJECT/Controller/bin/Release",
+        "releaseSearchFile": "SAMPLE_Control.exe",
+        "excludeReleaseSearchFile": "false",
+        "bundleParentDir": "C:/bundles/SAMPLE",
+        "shellCommands": []
+    },
+	"ts": {
+        "assemblyName": "SAMPLE_transaction_service",
+        "releaseParentPath": "c:/workspace/SAMPLE_PROJECT/Transaction Service/bin/Release",
+        "releaseSearchFile": "Transaction Service.exe",
+        "excludeReleaseSearchFile": "false",
+        "bundleParentDir": "C:/bundles/SAMPLE",
+        "shellCommands": []
+    },
+	"worker": {
+        "assemblyName": "SAMPLE_worker",
+        "releaseParentPath": "c:/workspace/SAMPLE_PROJECT/worker/bin/Release",
+        "releaseSearchFile": "SAMPLE_Worker.exe.config",
+        "excludeReleaseSearchFile": "false",
+        "bundleParentDir": "C:/bundles/SAMPLE",
+        "shellCommands": []
+    }
+}
