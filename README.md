@@ -68,12 +68,12 @@ node app.js web controller -v 1.2.3
 
 To bundle the `controller` `relay` and the `worker`
 ```
-node app.js controller relay worker -v 1.2.3
+node index.js controller relay worker -v 1.2.3
 ```
 
 To bundle all the assemblies found in the config.json file
 ```
-node app.js all  -v 1.2.3
+node index.js all  -v 1.2.3
 ```
 
 **Note on Current Limitations** : The publishing directory used by Visual Studio to output Web Assemblies is limited to a single copy of the same web assembly.  This is because the directory name of the published web assembly is changeable and to cater for this a 'search' file is used to locate each of web assemblies. In cases where the same web assembly exists multiple times the duplicate copies of the search file makes the wheels fall off.
