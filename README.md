@@ -59,7 +59,7 @@ The sample config is a mock of 4 different 'projects' within a Visual Studio sol
 ## Running the Utility
 1. Within `Visual Studio` you run the normal `release` / publishing build steps for all assemblies within the solution.
 
-1. Once the config.json file is setup you run the utility on the command line passing in the `logical names` sparated by spaces of the projects that are to be bundled together along with a version number. **Note** that the version number is required and will be appended to bundle output directory name.
+2. Once the config.json file is setup you run the utility on the command line passing in the `logical names` separated by spaces of the projects that are to be bundled together along with a version number. **Note** that the version number is required and will be appended to bundle output directory name.
 
 For example based on the sample config to  bundle the `web` and the `controller` components only
 ```
